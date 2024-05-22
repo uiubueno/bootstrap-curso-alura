@@ -23,6 +23,14 @@ input[type="checkbox"]:focus {
   background-image: url(./assets/banner-1.png);
 }
 
+.banner-2 {
+  background-image: url(./assets/banner-2.png);
+}
+
+.banner-3 {
+  background-image: url(./assets/banner-3.png);
+}
+
 .banners {
   width: 100%;
   height: 100vh;
@@ -34,4 +42,12 @@ input[type="checkbox"]:focus {
 
 .banners-titulo {
   --bs-bg-opacity: 0.2;
+}
+
+.botao-padrao {
+  background-color: var(--marrom-claro);
+}
+
+.botao-padrao:hover {
+  background-color: var(--marrom-escuro);
 }
